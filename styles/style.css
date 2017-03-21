@@ -11,9 +11,9 @@ body {
   height: 80%;
 }
 
-#name {
-  color: #f5d4b9;
-}
+/*#name {
+  color: white;
+}*/
 
 .headerText i {
   text-align: center;
@@ -31,9 +31,10 @@ body {
 .headerText i::before {
   width: 42px;
   height: 42px;
+  /*color: white;*/
 }
 
-.iconContainer {
+.contactContainer {
   text-align: center;
   padding-bottom: 2%;
 }
@@ -55,16 +56,20 @@ body {
   text-align: center;
 }
 
-#aboutTitle {
+#aboutT {
   padding-bottom: 2%;
 }
 
 #Sophie {
-  border: 5px solid #ffa000;
+  border: 5px solid #f5d4b9;
+  max-width: 400px;
+  max-height: 500px;
+  align-items: center;
+
 }
 
 #tabs-swipe-demo {
-  /*background-color: #ffa000;*/
+  background-color: #ffa000;
 }
 
 .tabs .tab a {
@@ -86,7 +91,7 @@ body {
 
 .tabs .tab a.active {
   color: #ffffff;
-  /*background: #616161;*/
+  background: #616161;
 }
 
 .tabs .indicator {
@@ -131,8 +136,8 @@ body {
   font-size: 5em;
 }
 
-.col.s3.hoverable {
-  padding-top: .5em;
+.col.s3 {
+  padding-top: .25em;
 }
 
 /* ***********End Skills********** */
