@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Sophie Fazal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/02f3f8ed36.js"></script>
+    <script src='scripts/script.js'></script>
   </head>
   <body>
-      <h1>hello world</h1>
+    <header>
+        <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wrapper black -2">
+              <!-- <a href="!#" class="brand-logo right">SNFAZAL</a> -->
+              <a href="#" data-activates="mobile-nav" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+              <ul class='left hide-on-small-and-down'>
+                <li class='listItem'><a href="#top">Home</a></li>
+                <li class='listItem'><a href="#about">About</a></li>
+                <li class='listItem'><a href="#skills">Skills</a></li>
+                <li class='listItem'><a href="#projects">Projects</a></li>
+                <li class='listItem'><a href="mailto:snfazal@gmail.com?subject=Hello%20There!">Contact</a></li>
+              </ul>
+              <ul class="side-nav" id="mobile-nav">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li class='listItem'><a href="mailto:snfazal@gmail.com?subject=Hello%20There!">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
   </body>
+  <h1 id="name">Sophia Fazal</h1>
+  <h2 id="profile" src="image/profile.JPG"></h2>
 </html>
