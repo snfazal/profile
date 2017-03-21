@@ -3,6 +3,8 @@ body {
   /*text-transform: capitalize;*/
 }
 
+/* start header */
+
 .headerText {
   padding-top: 15%;
   padding-bottom: 25%;
@@ -50,7 +52,7 @@ body {
 /* End Header */
 
 
-/* About */
+/* start about */
 .about {
   padding-bottom: 25%;
   text-align: center;
@@ -122,7 +124,7 @@ body {
 
 /* End About */
 
-/* *********Skills********* */
+/* start skills and tools  */
 .skills {
   padding-bottom: 25%;
   background: white;
@@ -140,66 +142,4 @@ body {
   padding-top: .25em;
 }
 
-/* ***********End Skills********** */
-
-/* ***********Projects*********** */
-.projects {
-  height: auto;
-  padding-bottom: 25%;
-}
-
-.projects h3 {
-  text-align: center;
-}
-
-.collapsible.popout li {
-  margin: 2.5%;
-}
-
-.collapsible-body > .row {
-  padding-bottom: 10%:
-}
-
-.title {
-  display: inline-block;
-  /*transition: all 0.1s ease;*/
-}
-
-.title.left.fancy {
-  color: teal;
-  letter-spacing: .3em;
-  font-weight: bolder;
-  transform: scale(1.2);
-}
-
-.title.right i {
-  margin: 0;
-}
-
-.imgHolder {
-  /*padding: 1%;*/
-  margin-bottom: 5%;
-  height: 200px;
-  width: 400px;
-  text-align: center;
-  display: inline-block;
-  /*transition: all 0.2s ease;*/
-}
-
-.img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 2%;
-  border: 4px solid lightgray;
-}
-
-
-.description {
-  padding-top: 2%;
-  font-size: 1.15em;
-}
-
-.guest {
-  text-transform: lowercase;
-}
-/* ***********END Projects*********** */
+/* end skills and tools */
